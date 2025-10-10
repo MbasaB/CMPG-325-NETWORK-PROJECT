@@ -74,7 +74,41 @@ Description: Hierarchical star with multiple star networks connected together
 Devices: Multiple switches in hierarchical design, 4 PCs
 **Key Features:**  
 
-Scalable design
-Distributed network segments
+Scalable design  
+Distributed network segments  
+## **Screenshot:** 
+<img width="787" height="450" alt="image" src="https://github.com/user-attachments/assets/81dc0ec9-8085-4562-9f0c-6a3db32d40ac" />
+
+### **6. Hybrid Topology**   
+Location: /topologies/hybrid-topology.pkt
+
+Description: Integration of all 5 basic topologies into one comprehensive network  
+**Network Segments:**
+
+VLAN 10: Ring,Extended star - Students section  
+VLAN 20: Bus - Admin section  
+VLAN 30: Mesh,star - Guest section  
+VLAN 40: Server segment (HTTP/DNS)    
+
+
+
+**Key Features:**
+
+IPv4 and IPv6 dual-stack configuration  
+VLAN segmentation for security and traffic management  
+Multiple servers: HTTP (Server-PT HTTP), DNS (Server-PT DNS)    
+DHCP for automatic IP assignment    
+Inter-VLAN routing configured    
+Basic security measures implemented   
+
+**Devices:**
+
+Routers: 1 (Router0 - 1941)  
+Switches: 12 (2960-24TT models)  
+End devices: 19 PCs total   
+Servers: 2 (HTTP, DNS)      
+## **Screenshot:**  
+<img width="1427" height="702" alt="image" src="https://github.com/user-attachments/assets/bb24ea62-5a19-4c6e-9adb-9dbbace8c70c" />
+
 
 
