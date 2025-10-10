@@ -105,10 +105,11 @@ Basic security measures implemented
 
 Routers: 1 (Router0 - 1941)  
 Switches: 12 (2960-24TT models)  
-End devices: 19 PCs total   
+End devices: 20 PCs total   
 Servers: 2 (HTTP, DNS)      
 ## **Screenshot:**  
 <img width="1427" height="702" alt="image" src="https://github.com/user-attachments/assets/bb24ea62-5a19-4c6e-9adb-9dbbace8c70c" />
 
+## **Part II: EIGRP for IPv6 Configuration**
 
 
