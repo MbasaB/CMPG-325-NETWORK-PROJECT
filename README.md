@@ -108,7 +108,10 @@ Switches: 12 (2960-24TT models)
 End devices: 20 PCs total   
 Servers: 2 (HTTP, DNS)      
 ## **Screenshot:**  
-<img width="1427" height="702" alt="image" src="https://github.com/user-attachments/assets/bb24ea62-5a19-4c6e-9adb-9dbbace8c70c" />
+<img width="1427" height="702" alt="image" src="https://github.com/user-attachments/assets/bb24ea62-5a19-4c6e-9adb-9dbbace8c70c" />  
+ <img width="986" height="571" alt="image" src="https://github.com/user-attachments/assets/03881011-6928-40a4-99bc-de437ef5f846" />
+
+
 
 ## **Part II: EIGRP for IPv6 Configuration**
 
