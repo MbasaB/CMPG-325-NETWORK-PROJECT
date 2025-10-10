@@ -27,7 +27,7 @@ Simple design with minimal cabling
 Single point of failure demonstration
 
 ## **Screenshot:**
-<img width="1049" height="545" alt="image" src="https://github.com/user-attachments/assets/699d55b5-2fdf-4a99-bcb9-b271c12b0791" />
+<img width="800" height="545" alt="image" src="https://github.com/user-attachments/assets/699d55b5-2fdf-4a99-bcb9-b271c12b0791" />
 
  **2. Mesh Topology**
 Location: /topologies/mesh-topology.pkt
@@ -39,7 +39,7 @@ Devices: 4 routers/switches with redundant links
 High redundancy and fault tolerance  
 Multiple communication paths  
 ## **Screenshot:**  
-<img width="1096" height="707" alt="image" src="https://github.com/user-attachments/assets/304c3543-a4b8-4150-b5c7-30a97c188b2d" />
+<img width="650" height="580" alt="image" src="https://github.com/user-attachments/assets/304c3543-a4b8-4150-b5c7-30a97c188b2d" />
 
 **3. Star Topology**
 Location: /topologies/star-topology.pkt
@@ -52,7 +52,7 @@ Easy to manage and troubleshoot
 Central point of failure
 
 ## **Screenshot:**
-<img width="760" height="660" alt="image" src="https://github.com/user-attachments/assets/bc318c47-e4e6-4962-af0d-f60c7880e863" />
+<img width="580" height="490" alt="image" src="https://github.com/user-attachments/assets/bc318c47-e4e6-4962-af0d-f60c7880e863" />
 
 **4. Ring Topology**
 Location: /topologies/ring-topology.pkt
@@ -65,7 +65,7 @@ Data flows in one direction
 Equal access for all devices
 
 ## **Screenshot:**  
-<img width="884" height="715" alt="image" src="https://github.com/user-attachments/assets/18d79c4b-3202-4562-a881-48ee553fdc9f" />  
+<img width="650" height="400" alt="image" src="https://github.com/user-attachments/assets/18d79c4b-3202-4562-a881-48ee553fdc9f" />  
 
 **5. Extended Star Topology**
 Location: /topologies/extended-star-topology.pkt
@@ -77,7 +77,7 @@ Devices: Multiple switches in hierarchical design, 4 PCs
 Scalable design  
 Distributed network segments  
 ## **Screenshot:** 
-<img width="787" height="450" alt="image" src="https://github.com/user-attachments/assets/81dc0ec9-8085-4562-9f0c-6a3db32d40ac" />
+<img width="700" height="450" alt="image" src="https://github.com/user-attachments/assets/81dc0ec9-8085-4562-9f0c-6a3db32d40ac" />
 
 ### **6. Hybrid Topology**   
 Location: /topologies/hybrid-topology.pkt
@@ -108,8 +108,8 @@ Switches: 12 (2960-24TT models)
 End devices: 20 PCs total   
 Servers: 2 (HTTP, DNS)      
 ## **Screenshot:**  
-<img width="1427" height="702" alt="image" src="https://github.com/user-attachments/assets/bb24ea62-5a19-4c6e-9adb-9dbbace8c70c" />  
- <img width="986" height="571" alt="image" src="https://github.com/user-attachments/assets/03881011-6928-40a4-99bc-de437ef5f846" />
+<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/bb24ea62-5a19-4c6e-9adb-9dbbace8c70c" />  
+ <img width="560" height="400" alt="image" src="https://github.com/user-attachments/assets/03881011-6928-40a4-99bc-de437ef5f846" />
 
 
 
