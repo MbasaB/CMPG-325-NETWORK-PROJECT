@@ -112,4 +112,26 @@ Servers: 2 (HTTP, DNS)
 
 ## **Part II: EIGRP for IPv6 Configuration**
 
+Location: /topologies/eigrp-ipv6-topology.pkt
+Note: This is a separate topology designed specifically to demonstrate EIGRP for IPv6 routing protocol configuration and functionality.  
+Implementation Details  
+EIGRP (Enhanced Interior Gateway Routing Protocol) for IPv6 has been configured on the following devices:  
+**Configured Devices:**
+
+Router2 (1941)
+Router3 (1941)
+
+Network Topology:
+
+Router2 connects to Switch2 → PC0  
+Router2 ↔ Router3 (backbone connection)  
+Router3 connects to Switch3 → PC1  
+
+IPv6 Networks:
+
+2000:bad:cafe:1::/64 - Router2 to Switch2  
+2000:bad:cafe:2::/64 - Router2 to Router3 link  
+2000:mb:boss:3::/64 - Router3 to Switch3 
+
+ 
 
