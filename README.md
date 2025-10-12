@@ -109,7 +109,14 @@ End devices: 20 PCs total
 Servers: 2 (HTTP, DNS)      
 ## **Screenshot:**  
 <img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/bb24ea62-5a19-4c6e-9adb-9dbbace8c70c" />  
- <img width="560" height="400" alt="image" src="https://github.com/user-attachments/assets/03881011-6928-40a4-99bc-de437ef5f846" />
+ <img width="560" height="400" alt="image" src="https://github.com/user-attachments/assets/03881011-6928-40a4-99bc-de437ef5f846" />  
+ **Security Features**
+
+Port security enabled on access ports  
+VLAN segmentation isolates traffic  
+Access control lists (ACLs) for inter-VLAN traffic control 
+Password is enabled on router  
+     
 
 
 
