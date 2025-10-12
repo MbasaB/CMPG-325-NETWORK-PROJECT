@@ -65,7 +65,14 @@ ipv6 eigrp 10
 !Configure pc's
 Device   IPv6 address             IPv6 Gateway 
 PC0      2000:bad:cafe:1::10/64    fe80::1
-PC1      2000:bad:cafe:3::10/64     fe80::2
+PC1      2000:bad:cafe:3::10/64     fe80::2  
+
+Expected Results:
+
+Router2 and Router3 should be EIGRP neighbors
+Each router should learn the other's networks via EIGRP
+PC0 (2000:bad:cafe:1::x) should be able to ping PC1 (2000:bad:cafe:3::x)
+
 
 
 
