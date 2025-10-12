@@ -94,7 +94,11 @@ end
 write memory
 
 
- 
+Security Features
+
+Port security enabled on access ports
+VLAN segmentation isolates traffic
+Access control lists (ACLs) for inter-VLAN traffic control 
      
         
  
