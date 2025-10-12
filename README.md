@@ -143,5 +143,33 @@ IPv6 Networks:
 2000:bad:cafe:2::/64 - Router2 to Router3 link  
 2000:mb:boss:3::/64 - Router3 to Switch3 
 
+## Testing & Verification
+### **Connectivity Tests Performed**
+
+**Intra-VLAN Communication**
+
+PC0 to PC1 (VLAN 10) - Successful  
+PC4 to PC5 (VLAN 20) - Successful  
+PC10 to PC11 (VLAN 30) - Successful  
+
+
+**Inter-VLAN Communication**
+
+VLAN 10 to VLAN 20  - Successful   
+VLAN 20 to VLAN 40 (Server access) - Successful  
+
+
+**Service Verification**
+
+HTTP Server accessible from all VLANs  
+DNS resolution working  
+ 
+
+
+**EIGRP Verification**
+
+Neighbor relationships established  
+Routes learned and advertised  
+IPv6 connectivity via EIGRP  
  
 
