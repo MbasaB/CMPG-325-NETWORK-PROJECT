@@ -172,5 +172,38 @@ DNS resolution working
 Neighbor relationships established  
 Routes learned and advertised  
 IPv6 connectivity via EIGRP  
+
+## Challenges Faced & Solutions
+Part I: Network Topologies Design
+Challenge 1: VLAN Configuration Complexity
+
+Configuring trunk ports between switches and ensuring all VLANs were properly allowed on trunk links  
+Solution: Used systematic approach - configured VLANs first, then set trunk ports with specific VLAN allowances  
+
+Challenge 2: Inter-VLAN Routing
+
+Getting devices in different VLANs to communicate with each other  
+Solution: Configured router-on-a-stick or SVI (Switch Virtual Interfaces) for inter-VLAN routing with proper IP addressing on each VLAN interface  
+
+Challenge 3: IP Addressing Scheme
+
+Planning and implementing a logical IP addressing scheme across multiple VLANs and network segments  
+Solution: Created detailed IP addressing table before implementation to avoid conflicts and ensure proper subnet allocation  
+
+Challenge 4: Integrating Multiple Topologies
+
+Combining Bus, Mesh, Star, Ring, and Extended Star into one cohesive hybrid topology    
+Solution: Planned the network architecture on paper first, identifying which topology type best suited each network segment (Admin, Students, Guest, Servers)    
+
+## Part II: EIGRP for IPv6 Configuration  
+Challenge 6: IPv6 Address Format
+
+Understanding and correctly implementing IPv6 addressing format (much different from IPv4)  
+Solution: Followed structured IPv6 addressing scheme (2000:bad:cafe::/48) and used consistent patterns for each network segment  
+
+Challenge 7: EIGRP Not Forming Neighbor Relationships
+
+Initially, Router2 and Router3 were not becoming EIGRP neighbors
+Solution: Ensured no shutdown command was executed under ipv6 router eigrp 1 and verified interfaces were in the same IPv6 subnet
  
 
