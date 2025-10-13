@@ -121,7 +121,7 @@ Password is enabled on router
 
 
 
-## **Part II: EIGRP for IPv6 Configuration**
+## **Part II: EIGRP for IPv6 Individual Configuration Proj_90**
 
 Location: /topologies/eigrp-ipv6-topology.pkt
 Note: This is a separate topology designed specifically to demonstrate EIGRP for IPv6 routing protocol configuration and functionality.  
@@ -142,7 +142,13 @@ IPv6 Networks:
 
 2000:bad:cafe:1::/64 - Router2 to Switch2  
 2000:bad:cafe:2::/64 - Router2 to Router3 link  
-2000:mb:boss:3::/64 - Router3 to Switch3 
+2000:mb:boss:3::/64 - Router3 to Switch3
+
+## **Screenshot:** 
+<img width="400" height="350" alt="image" src="https://github.com/user-attachments/assets/8fb0add2-0fcd-4639-ba2c-e6d20d7253be" />
+<img width="400" height="350" alt="image" src="https://github.com/user-attachments/assets/4f1f352b-d960-4c4e-950c-919d9fd656b6" />  
+
+
 
 ## Testing & Verification
 ### **Connectivity Tests Performed**
@@ -173,8 +179,7 @@ Neighbor relationships established
 Routes learned and advertised  
 IPv6 connectivity via EIGRP 
 
-<img width="758" height="652" alt="image" src="https://github.com/user-attachments/assets/4f1f352b-d960-4c4e-950c-919d9fd656b6" />  
-
+ 
 
 
 ## Challenges Faced & Solutions
