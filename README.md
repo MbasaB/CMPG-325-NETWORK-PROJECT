@@ -171,7 +171,11 @@ DNS resolution working
 
 Neighbor relationships established  
 Routes learned and advertised  
-IPv6 connectivity via EIGRP  
+IPv6 connectivity via EIGRP 
+
+<img width="758" height="652" alt="image" src="https://github.com/user-attachments/assets/4f1f352b-d960-4c4e-950c-919d9fd656b6" />  
+
+
 
 ## Challenges Faced & Solutions
 Part I: Network Topologies Design
