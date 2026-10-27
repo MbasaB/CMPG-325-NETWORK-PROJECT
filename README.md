@@ -1,4 +1,32 @@
-# CMPG-325-NETWORK-PROJECT
+# CMPG 325 — Network Topologies & IPv6 Routing
+
+A Cisco Packet Tracer project exploring network design, switching, VLAN segmentation, IPv4/IPv6 addressing, and EIGRP routing. The repository contains topology files, configuration notes, and screenshots.
+
+## Explore the simulations
+
+| Simulation | Cisco Packet Tracer file |
+| --- | --- |
+| Bus | [Open Bus Topology](<Bus Topology/bus topology.pkt/Bus Topology.pkt>) |
+| Mesh | [Open Mesh Topology](<Mesh Topology/mesh.topology/Mesh Topology.pkt>) |
+| Star | [Open Star Topology](<Star Topology/star topology.pkt/Star Topology.pkt>) |
+| Ring | [Open Ring Topology](<Ring Topology/ring topology.pkt/Ring Topology.pkt>) |
+| Extended star | [Open Extended Star](<Extended Star/Extended star.pkt/Extended Star Topology.pkt>) |
+| Hybrid (VLANs and services) | [Open Hybrid Topology](<Hybrid Topology/hybrid topology.pkt/latest_hybrid2.pkt>) |
+| IPv6 EIGRP | [Open IPv6 EIGRP topology](<Part ll/eigrp-ipv6-topology.pkt/part2.pkt>) |
+
+### How to review
+
+1. Download the relevant `.pkt` file from its link above.
+2. Open it in a compatible version of Cisco Packet Tracer.
+3. Inspect the addressing, interfaces, VLANs, routing configurations, and connectivity tests.
+4. Read the topology-specific folders for configuration notes and screenshots.
+
+**Note:** The configuration stored in each Packet Tracer file is the reference for exact interface addresses and device settings. The report below records the project's design and reported tests.
+
+---
+
+## Detailed project documentation
+
 ## **Project Overview**
 This project demonstrates the design, implementation, and configuration of various network topologies using Cisco Packet Tracer. The project is divided into three main parts:
 
@@ -8,7 +36,7 @@ Part III (20%): Video demonstration showcasing configurations and testing
 
 ### Technologies Used
 
-Cisco Packet Tracer (version 15.4)  
+Cisco Packet Tracer  
 IPv4 and IPv6 addressing  
 VLAN segmentation  
 EIGRP routing protocol  
@@ -17,7 +45,7 @@ Network services: HTTP, DNS
 
 **Part I: Network Topologies Design & Simulation**
 1. **Bus Topology**  
-Location: /topologies/bus-topology.pkt
+File: [Bus Topology.pkt](<Bus Topology/bus topology.pkt/Bus Topology.pkt>)
 
 Description: Linear topology where all devices connect to a single backbone cable    
 Devices: 4 PCs, 4 switches  
@@ -123,7 +151,7 @@ Password is enabled on router
 
 ## **Part II: EIGRP for IPv6 Individual Configuration Proj_90**
 
-Location: /topologies/eigrp-ipv6-topology.pkt
+File: [IPv6 EIGRP Packet Tracer topology](<Part ll/eigrp-ipv6-topology.pkt/part2.pkt>)
 Note: This is a separate topology designed specifically to demonstrate EIGRP for IPv6 routing protocol configuration and functionality.  
 Implementation Details  
 EIGRP (Enhanced Interior Gateway Routing Protocol) for IPv6 has been configured on the following devices:  
@@ -142,7 +170,7 @@ IPv6 Networks:
 
 2000:bad:cafe:1::/64 - Router2 to Switch2  
 2000:bad:cafe:2::/64 - Router2 to Router3 link  
-2000:mb:boss:3::/64 - Router3 to Switch3
+Router3 to Switch3: consult the Packet Tracer file for the exact IPv6 subnet (the earlier placeholder in these notes was not valid IPv6 notation)
 
 ## **Screenshot:** 
 <img width="400" height="350" alt="image" src="https://github.com/user-attachments/assets/8fb0add2-0fcd-4639-ba2c-e6d20d7253be" />
